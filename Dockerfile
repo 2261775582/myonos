@@ -20,7 +20,6 @@ WORKDIR /root/onos_dev
 RUN git clone -b 2.7.0 https://github.com/opennetworkinglab/onos.git
 
 # Install ONOS in /root/onos
-RUN mkdir /root/onos/
 WORKDIR /root/onos
 
 # Ports
